@@ -7,7 +7,7 @@ st.set_page_config("PragyanAI Content Generator", layout="wide")
 header_col1, header_col2 = st.columns([1, 4])
 
 with header_col1:
-    st.image("car.jpg", width=120)  # put your image file in the same folder
+    st.image("butterfly.jpg", width=120)  # put your image file in the same folder
 
 with header_col2:
     st.markdown("## Kogara Kranthi Reddy")
