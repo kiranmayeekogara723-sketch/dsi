@@ -11,7 +11,7 @@ st.image(
     width=500       
 )
 
-st.title("📣 Varsha Sanjeetha – Content Generator")
+st.title("📣 sujee kiran – Content Generator")
 st.caption("AI-powered marketing content generator")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
