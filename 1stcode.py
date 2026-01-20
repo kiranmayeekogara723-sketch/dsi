@@ -2,7 +2,16 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("PragyanAI Content Generator", layout="wide")
-st.title("📢 PragyanAI – Content Generator")
+
+# Header with photo and name
+header_col1, header_col2 = st.columns([1, 4])
+
+with header_col1:
+    st.image("car.jpg", width=120)  # put your image file in the same folder
+
+with header_col2:
+    st.markdown("## Kogara Kranthi Reddy")
+    st.markdown("### 📢 PragyanAI – Content Generator")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
